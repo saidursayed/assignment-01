@@ -89,7 +89,44 @@ nav {
     margin-bottom: 23px;
 }
 
-
 .action-image img{
     border-radius: 48px;
 }
+
+/* Productive Users Style */
+.productive-users-container {
+    border-radius: 24px;
+    background-color: #4e47ff1a;
+    padding: 50px 80px;
+    text-align: center;
+    margin-bottom: 137px;
+}
+
+.productive-users-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.productive-users-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productive-users-card {
+    font-family: "Inter", sans-serif;
+}
+
+.productive-users-card h1{
+    color: #4E47FF;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.productive-users-card p{
+    color: #00000080;
+    font-size: 20px;
+}
+
