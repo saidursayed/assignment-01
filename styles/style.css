@@ -178,5 +178,39 @@ nav {
     border: 0;
 }
 
+/* Footer Section Styles */
+footer {
+    font-family: "Inter", sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 104px 0 103px 0;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+.footer-subtitle {
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
 
 
