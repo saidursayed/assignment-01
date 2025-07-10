@@ -178,6 +178,96 @@ nav {
     border: 0;
 }
 
+
+/* Users Feedback Section Style */
+.users-feedback-container {
+    margin-bottom: 137px;
+}
+
+.users-feedback-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.users-feedback-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-feedback-card {
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background-color: #ffffff80;
+    padding: 24px;
+}
+
+.user-feedback-icon {
+    margin-bottom: 24px;
+}
+
+.users-feedback-card-title {
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.users-feedback-card-subtitle {
+    color: #1E1E1E;
+    margin-bottom: 24px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    border-radius: 50%;
+}
+
+.reviewer-name {
+    color: #757575;
+    font-weight: 600;
+}
+
+.reviewer-date {
+    color: #B3B3B3;
+}
+
+
+/* Ready to focus better Style */
+.focus-container {
+    border-radius: 14px;
+    background-color: #ffffff;
+    padding: 71px 150px;
+    text-align: center;
+}
+
+.focus-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus-subtitle {
+    color: #00000080;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.focus-container img {
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
 /* Footer Section Styles */
 footer {
     font-family: "Inter", sans-serif;
