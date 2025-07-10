@@ -14,6 +14,14 @@
     font-weight: 700;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* Header Style */
 header {
@@ -54,4 +62,34 @@ nav {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 37px;
+}
+
+/* Action Style */
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 0;
+}
+
+.action-content {
+    font-family: "Raleway", sans-serif;
+}
+
+.action-title {
+    color: #252432;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+
+.action-subtitle {
+    color: #25243280;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+
+.action-image img{
+    border-radius: 48px;
 }
