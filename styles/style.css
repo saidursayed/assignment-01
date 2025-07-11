@@ -78,9 +78,10 @@ nav {
     align-items: center;
     margin: 116px 0;
 }
-
+/* add */
 .action-content {
     font-family: "Raleway", sans-serif;
+    width: 50%;
 }
 
 .action-title {
@@ -94,6 +95,12 @@ nav {
     color: #25243280;
     font-size: 24px;
     margin-bottom: 23px;
+}
+
+/* add */
+.action-image {
+    width: 50%;
+    text-align: right;
 }
 
 .action-image img{
