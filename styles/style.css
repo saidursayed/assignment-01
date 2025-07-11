@@ -7,11 +7,18 @@
 .btn-primary {
     padding: 12px 36px;
     border-radius: 10px;
-    border: 0;
+    border: 2px solid #4e47ff;
     background-color: #4e47ff;
     font-family: "Raleway", sans-serif;
     color: #FFFFFF;
     font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #4e47ff;
 }
 
 body {
@@ -25,7 +32,7 @@ main {
 
 /* Header Style */
 header {
-    background-image: url(../Assets/Hero-bg.png);
+    background-image: linear-gradient(#4E47FF03), url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -130,6 +137,102 @@ nav {
     font-size: 20px;
 }
 
+
+/* Users Feedback Section Style */
+.users-feedback-container {
+    margin-bottom: 137px;
+}
+
+.users-feedback-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.users-feedback-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-feedback-card {
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background-color: #ffffff80;
+    padding: 24px;
+    width: 320px;
+}
+
+.user-feedback-icon {
+    margin-bottom: 24px;
+}
+
+.users-feedback-card-title {
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.users-feedback-card-subtitle {
+    color: #1E1E1E;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    border-radius: 50%;
+}
+
+.reviewer-name {
+    color: #757575;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.reviewer-date {
+    color: #B3B3B3;
+    font-size: 16px;
+}
+
+
+/* Ready to focus better Style */
+.focus-container {
+    border-radius: 14px;
+    background-color: #ffffff;
+    padding: 71px 150px;
+    text-align: center;
+}
+
+.focus-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus-subtitle {
+    color: #00000080;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.focus-container img {
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+
 /* Let’s Get In Touch Section Style */
 .touch-container {
     display: flex;
@@ -175,97 +278,14 @@ nav {
     border-radius: 10px;
     background-color: #4e47ff;
     color: #FFFFFF;
-    border: 0;
+    border: 2px solid #4e47ff;
+    font-size: 16px;
 }
 
-
-/* Users Feedback Section Style */
-.users-feedback-container {
-    margin-bottom: 137px;
-}
-
-.users-feedback-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 42px;
-    color: #252432;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.users-feedback-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.users-feedback-card {
-    font-family: "Inter", sans-serif;
-    border: 1px solid rgb(242, 237, 237);
-    border-radius: 14px;
-    background-color: #ffffff80;
-    padding: 24px;
-}
-
-.user-feedback-icon {
-    margin-bottom: 24px;
-}
-
-.users-feedback-card-title {
-    color: #1E1E1E;
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 8px;
-}
-
-.users-feedback-card-subtitle {
-    color: #1E1E1E;
-    margin-bottom: 24px;
-}
-
-.reviewer {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.reviewer img {
-    border-radius: 50%;
-}
-
-.reviewer-name {
-    color: #757575;
-    font-weight: 600;
-}
-
-.reviewer-date {
-    color: #B3B3B3;
-}
-
-
-/* Ready to focus better Style */
-.focus-container {
-    border-radius: 14px;
+.touch-form form input[type="submit"]:hover {
+    color: #4e47ff;
     background-color: #ffffff;
-    padding: 71px 150px;
-    text-align: center;
-}
-
-.focus-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-.focus-subtitle {
-    color: #00000080;
-    font-family: "Inter", sans-serif;
-    margin-bottom: 20px;
-}
-
-.focus-container img {
-    border-radius: 48px;
-    margin-top: 20px;
+    cursor: pointer;
 }
 
 /* Footer Section Styles */
@@ -286,6 +306,7 @@ footer {
 .footer-subtitle {
     color: #8987A1;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 footer ul {
@@ -301,6 +322,11 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: #8987A1;
+    font-size: 16px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
 
 
